@@ -1,0 +1,249 @@
+@font-face {
+    font-family: 'Brandon Grotesque Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Brandon Grotesque Medium'), url('brandon-grotesque-medium-587bd623e472a.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Brandon Grotesque Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Brandon Grotesque Thin'), url('brandon-grotesque-thin-587bd5b76cfba.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Brandon Grotesque Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Brandon Grotesque Bold'), url('brandon-grotesque-bold-587bd6400afd0.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'Voga Medium';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Voga Medium'), url('Voga-Medium.woff') format('woff');
+        }
+
+
+body {
+    margin: 0;
+    padding: 5% 10% 5% 10%;
+}
+
+nav {
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+	-webkit-flex-wrap: column;
+	justify-content: flex-end;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav ul li a {
+    display: inline-block;
+    margin-bottom: 28px;
+    font-family: 'Brandon Grotesque Medium';
+    font-weight: normal;
+    line-height: 0.2em;
+    color: #4B4B4B;
+    text-decoration: none;
+    letter-spacing: 0.11111111em;
+    text-align: right;
+
+    font-size: 1.2em;
+	font-weight: medium;
+	flex-wrap: column;
+	justify-content: flex-end;
+	padding: 1em;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-touch-callout: none;
+	-khtml-user-select: none;
+	-webkit-tap-highlight-color: #4B4B4B;
+}
+
+nav ul li a:hover,
+nav ul li a:focus{
+	outline: none;
+}
+
+.menu a {
+	position: relative;
+	margin: 0;
+	padding-right: 0;
+	padding-left: 0;
+	color: #4B4B4B;
+	-webkit-transition: color 0.4s;
+	transition: color 0.4s;
+}
+
+.menu .current a,
+.menu .current a:hover,
+.menu .current a:focus {
+	color: #FFB300;
+}
+
+.menu .current a::after,
+.menu .current a::before {
+	-webkit-transform: scale3d(1, 1, 1);
+	transform: scale3d(1, 1, 1);
+}
+
+.menu .current a::before {
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+.menu a:hover,
+.menu a:focus {
+	color: #FFB300;
+}
+
+.menu a:hover::before,
+.menu a:focus::before {
+	-webkit-transform: scale3d(1, 1, 1);
+	transform: scale3d(1, 1, 1);
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+.menu a::before,
+.menu a::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 2px;
+	-webkit-transform: scale3d(0, 1, 1);
+	transform: scale3d(0, 1, 1);
+	-webkit-transform-origin: center right;
+	transform-origin: center right;
+	-webkit-transition: transform 0.4s cubic-bezier(0.22, 0.61, 0.36, 1);
+	transition: transform 0.4s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.menu a::before {
+	background: #4B4B4B;
+	-webkit-transition-delay: 0.4s;
+	transition-delay: 0.4s;
+}
+
+.menu a::after {
+	background: #FFB300;
+}
+
+
+@media screen and (max-width:55em) {
+	.nav ul li {
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+.contenedor{
+    width: 80%;
+    padding-top: 6%;
+}
+
+.info h1{
+    font-family: 'Brandon Grotesque Bold';
+    color: #4B4B4B;
+    font-size: 18px;
+    letter-spacing: 0.5em;
+    margin-top: 8%;
+}
+
+.cabecera{
+display: flex;
+}
+
+.info{
+    width: 100%;
+    align-content: space-between;
+    margin-right: 15%;
+    padding-top: 8%;
+
+}
+
+.imagenes{
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.img-1, .img-2, .img-3{
+    margin-bottom: 5%;
+    flex-direction: column;
+}
+
+.contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto a{
+    text-decoration: none;
+    font-family: 'Amiri', serif;
+    font-size: 22px;
+    font-weight: lighter;
+    color: #4B4B4B;
+    text-align: center;
+    margin-bottom: -0.5%;
+
+}
+
+.contacto p{
+    font-size: 20px;
+    font-family: 'Amiri', serif;
+    font-weight: lighter;
+    color: #4B4B4B;
+    margin-right: 15px;
+}
+
+.contacto a:hover{
+    color: #FFB300;
+}
+
+footer{
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(116, 116, 116);
+    margin: 10% 0% 2% 0%;
+    align-content: center;
+}
+
+.proyecto{
+    margin: 5% 0% 0% 0%;
+}
+
+
+.img-titulo img{
+width: 405px;
+height: 487px;}

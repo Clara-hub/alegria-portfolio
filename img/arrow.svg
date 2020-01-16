@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="46px" viewBox="0 0 9 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-716.000000, -643.000000)">
+            <g id="Group" transform="translate(715.000000, 643.000000)">
+                <polygon id="Rectangle" fill="#4E4C4C" style="mix-blend-mode: luminosity;" transform="translate(5.500000, 40.565399) rotate(-45.000000) translate(-5.500000, -40.565399) " points="3.69047273 37 9 42.3095273 2 44.1307986"></polygon>
+                <line x1="5.5" y1="0.5" x2="5.5" y2="41" id="Line" stroke="#4B4B4B" stroke-linecap="square"></line>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -30,7 +30,7 @@
 
 
 body {
-    margin: 0;
+    margin: 0 auto;
     padding: 5% 10% 5% 10%;
 }
 
@@ -159,6 +159,7 @@ nav ul li a:focus{
 .contenedor{
     width: 80%;
     padding-top: 6%;
+    padding-left: 2%;
 }
 
 .info h1{
@@ -178,17 +179,24 @@ display: flex;
     align-content: space-between;
     margin-right: 15%;
     padding-top: 8%;
-
 }
 
+.img-titulo img{
+    padding-left: 15%;
+    width: 405px;
+    height: 487px;}
+
+
 .imagenes{
-    margin-top: 20%;
+    margin: 0 auto;
+    margin-top: 10%;
     display: flex;
     flex-direction: column;
 
 }
 
 .img-1, .img-2, .img-3{
+    width: 1102px;
     margin-bottom: 5%;
     flex-direction: column;
 }
